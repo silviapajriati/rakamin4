@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"strconv"
 
+	"rakamin4/common/errors"
+	"rakamin4/config"
+	"rakamin4/contract"
+	"rakamin4/external/jwt_client"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/google/uuid"
-	"github.com/rysmaadit/go-template/common/errors"
-	"github.com/rysmaadit/go-template/config"
-	"github.com/rysmaadit/go-template/contract"
-	"github.com/rysmaadit/go-template/external/jwt_client"
 	log "github.com/sirupsen/logrus"
 )
 

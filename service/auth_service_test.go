@@ -4,12 +4,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/rysmaadit/go-template/common/errors"
+	"rakamin4/common/errors"
 
-	"github.com/rysmaadit/go-template/config"
-	"github.com/rysmaadit/go-template/contract"
-	"github.com/rysmaadit/go-template/external/jwt_client"
-	"github.com/rysmaadit/go-template/external/mocks"
+	"rakamin4/config"
+	"rakamin4/contract"
+	"rakamin4/external/jwt_client"
+	"rakamin4/external/mocks"
+
 	mockVal "github.com/stretchr/testify/mock"
 )
 

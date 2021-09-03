@@ -1,4 +1,4 @@
-module github.com/rysmaadit/go-template
+module rakamin4
 
 go 1.14
 

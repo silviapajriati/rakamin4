@@ -3,9 +3,10 @@ package handler
 import (
 	"net/http"
 
-	"github.com/rysmaadit/go-template/common/responder"
-	"github.com/rysmaadit/go-template/contract"
-	"github.com/rysmaadit/go-template/service"
+	"rakamin4/common/responder"
+	"rakamin4/contract"
+	"rakamin4/service"
+
 	log "github.com/sirupsen/logrus"
 )
 

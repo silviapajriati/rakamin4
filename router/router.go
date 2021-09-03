@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/rysmaadit/go-template/handler"
-	"github.com/rysmaadit/go-template/service"
+	"rakamin4/handler"
+	"rakamin4/service"
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"

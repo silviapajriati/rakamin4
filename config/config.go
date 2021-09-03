@@ -13,6 +13,10 @@ type Config struct {
 	LogLevel    string
 	Environment string
 	JWTSecret   string
+	MYSQL_USER  string
+	MYSQL_PORT  string
+	MYSQL_PASS  string
+	MYSQL_ADDR  string
 }
 
 func Init() *Config {
@@ -30,6 +34,10 @@ func Init() *Config {
 		LogLevel:    GetString("LOG_LEVEL"),
 		Environment: GetString("ENVIRONMENT"),
 		JWTSecret:   GetString("JWT_SECRET"),
+		MYSQL_USER:  GetString("mysql_user"),
+		MYSQL_PORT:  GetString("mysql_port"),
+		MYSQL_PASS:  GetString("mysql_pass"),
+		MYSQL_ADDR:  GetString("mysql_addr"),
 	}
 
 	return appConfig

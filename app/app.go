@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/rysmaadit/go-template/config"
+	"rakamin4/config"
 )
 
 type Application struct {

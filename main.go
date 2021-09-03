@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/rysmaadit/go-template/app"
-	"github.com/rysmaadit/go-template/cli"
 	"os"
+	"rakamin4/app"
+	"rakamin4/cli"
 )
 
 func main() {

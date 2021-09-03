@@ -1,8 +1,8 @@
 package service
 
 import (
-	"github.com/rysmaadit/go-template/app"
-	"github.com/rysmaadit/go-template/external/jwt_client"
+	"rakamin4/app"
+	"rakamin4/external/jwt_client"
 )
 
 type Dependencies struct {

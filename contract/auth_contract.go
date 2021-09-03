@@ -4,10 +4,11 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"rakamin4/common/errors"
+	"rakamin4/common/util"
+
 	"github.com/dgrijalva/jwt-go"
 	"github.com/go-playground/validator"
-	"github.com/rysmaadit/go-template/common/errors"
-	"github.com/rysmaadit/go-template/common/util"
 	log "github.com/sirupsen/logrus"
 )
 

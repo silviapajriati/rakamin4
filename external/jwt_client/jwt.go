@@ -3,11 +3,13 @@ package jwt_client
 import (
 	"fmt"
 
-	"github.com/rysmaadit/go-template/contract"
+	"rakamin4/contract"
+
 	log "github.com/sirupsen/logrus"
 
+	"rakamin4/common/errors"
+
 	"github.com/dgrijalva/jwt-go"
-	"github.com/rysmaadit/go-template/common/errors"
 )
 
 type jwtClient struct{}

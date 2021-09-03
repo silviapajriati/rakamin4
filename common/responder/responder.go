@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"rakamin4/common/errors"
+
 	pkgErrors "github.com/pkg/errors"
-	"github.com/rysmaadit/go-template/common/errors"
 	"github.com/sirupsen/logrus"
 )
 
